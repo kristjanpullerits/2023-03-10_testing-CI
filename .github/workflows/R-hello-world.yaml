@@ -3,7 +3,7 @@ name: R-hello-world
 on: [push]
 
 jobs:
-  R-CMD-check:
+  say-hello-check:
     runs-on: ubuntu-latest
     
     steps:
